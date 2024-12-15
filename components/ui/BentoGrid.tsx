@@ -52,9 +52,18 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
-
+  const leftLists = [
+    "ReactJS",
+    "Express",
+    "Typescript",
+  ];
+  
+  const rightLists = [
+    "Javascript",
+    "Mongodb",
+    "Next.js",
+  ];
+  
   const [copied, setCopied] = useState(false);
 
   const defaultOptions = {
@@ -67,7 +76,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "muhammedrameess89@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -141,33 +150,34 @@ export const BentoGridItem = ({
 
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {leftLists.map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-              </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {rightLists.map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
+          <div className="flex flex-col lg:flex-row gap-8 w-full">
+          {/* Left Column */}
+          <div className="flex flex-col gap-6 w-full lg:w-1/2">
+            {leftLists.map((item, i) => (
+              <span
+                key={i}
+                className="py-6 px-8 text-lg font-semibold text-white bg-[#10132E] rounded-lg text-center transition-transform transform hover:scale-105 hover:bg-[#1e2544] duration-300 ease-in-out"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+        
+          {/* Right Column */}
+          <div className="flex flex-col gap-6 w-full lg:w-1/2">
+            {rightLists.map((item, i) => (
+              <span
+                key={i}
+                className="py-6 px-8 text-lg font-semibold text-white bg-[#10132E] rounded-lg text-center transition-transform transform hover:scale-105 hover:bg-[#1e2544] duration-300 ease-in-out"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+        
+        
+          
           )}
           {id === 6 && (
             <div className="mt-5 relative">
