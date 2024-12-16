@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div align="center">
   <br />
     <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
@@ -673,3 +674,6 @@ Enjoyed creating this project? Dive deeper into our PRO courses for a richer lea
 =======
 # portfolio-next.js
 >>>>>>> 00e101509bc04f5ea3e1742974e4b934b597449d
+=======
+# Portfolio-Next-js
+>>>>>>> bcf735bed3c3ed27fd32b5ded3a848a03c9a9e9b
