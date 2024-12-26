@@ -10,6 +10,8 @@ silent: true,
 org: "javascript-mastery",
 project: "javascript-nextjs",
 }, {
+
+    
 // For all available options, see:
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
