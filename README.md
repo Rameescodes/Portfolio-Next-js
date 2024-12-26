@@ -1,42 +1,47 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+# Modern Next.js Portfolio 🌟
 
-    
+![Project Banner](https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8)
 
-  <h3 align="center">A Modern Next.js Portfolio</h3>
+A visually stunning portfolio built with cutting-edge technologies like **Next.js**, **Three.js**, **Framer Motion**, and **Tailwind CSS**. Showcase your skills, experience, and projects in style.
 
- 
-
-
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/portfolio.git
-cd portfolio
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+---
 
 
 
-=======
-# portfolio-next.js
->>>>>>> 00e101509bc04f5ea3e1742974e4b934b597449d
-=======
-# Portfolio-Next-js
->>>>>>> bcf735bed3c3ed27fd32b5ded3a848a03c9a9e9b
+---
+
+## 🤖 Introduction
+This modern portfolio is designed to leave a lasting impression, featuring:
+- Interactive 3D elements using **Three.js**.
+- Smooth animations powered by **Framer Motion**.
+- Fully responsive design with **Tailwind CSS**.
+- Built with **Next.js**, offering seamless user experience.
+
+
+---
+
+## ⚙️ Tech Stack
+- **Next.js**: For server-side rendering and seamless navigation.
+- **Three.js**: To create interactive 3D elements.
+- **Framer Motion**: For stunning animations.
+- **Tailwind CSS**: To style the application responsively and efficiently.
+
+---
+
+## 🔋 Features
+- **Hero Section**: A captivating introduction with dynamic backgrounds.
+- **Interactive 3D Elements**: Enhance user engagement with 3D designs.
+- **Modern Bento Grid Layout**: Present personal information elegantly.
+- **Testimonials Section**: Highlighting feedback with scrolling animations.
+- **Work Experience Display**: Showcase your journey professionally.
+- **HTML5 Canvas Effects**: Add visual flair with canvas-based animations.
+- **Fully Responsive Design**: Looks great on all devices.
+
+---
+
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/adrianhajdin/portfolio.git
+   cd portfolio
