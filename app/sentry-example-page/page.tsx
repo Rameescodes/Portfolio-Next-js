@@ -1,5 +1,4 @@
 // ✅ app/page.tsx
-"use client";
 
 export const metadata = {
   title: "Sentry Onboarding",
