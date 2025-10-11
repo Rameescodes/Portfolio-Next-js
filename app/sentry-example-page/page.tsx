@@ -1,9 +1,12 @@
 // ✅ app/page.tsx
+"use client";
 
 export const metadata = {
   title: "Sentry Onboarding",
   description: "Test Sentry for your Next.js app!",
 };
+
+
 
 import * as Sentry from "@sentry/nextjs";
 
